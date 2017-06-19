@@ -19,9 +19,26 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "./public/vendor/font-awesome/css/font-awesome.min.css",
+        "./public/css/fonts.googleapis1.css",
+        "./public/css/fonts.googleapis2.css",
+        "./public/vendor/bootstrap/css/bootstrap.css",
+        "./public/css/animate.css",
+        "./public/vendor/magnific-popup/magnific-popup.css",
+        "./public/css/index.css",
+        "forms.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "./public/vendor/jquery/jquery.min.js",
+        "./public/vendor/bootstrap/js/bootstrap.min.js",
+        "./public/vendor/scrollreveal/scrollreveal.min.js",
+        "./public/vendor/magnific-popup/jquery.magnific-popup.min.js",
+        "./public/js/creative.min.js",
+        "../node_modules/jquery.easing/jquery.easing.min.js",
+        "./public/js/html5shiv.js",
+        "./public/js/respond.min.js",
+        "./public/js/google-analytics.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
